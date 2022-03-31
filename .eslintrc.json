@@ -1,0 +1,19 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": ["react", "sonarjs"],
+  "rules": {
+    "react/state-in-constructor": "off",
+    "react/no-did-mount-set-state": "off",
+    "react/no-did-update-set-state": "warn"
+  }
+}

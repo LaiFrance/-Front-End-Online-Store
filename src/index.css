@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body {
+  background: white;
+  font-size: 14px;
+  margin: 0 auto;
+  max-width: 1920px;
+  overflow-x: hidden;
+}
+
+
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+.price {
+  color: black;
+  margin-top: 5px;
+}
+
+.App-header {
+  align-items: center;
+  background-color: #282c34;
+}
+
+button {
+  background-color: #768d87;
+  border: 1px solid #566963;
+  border-radius: 5px;
+  box-shadow: inset 1px -3px 3px 1px #0a2e4b;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial , sans-serif;
+  font-size: 15px;
+  padding: 12px 32px;
+  text-decoration: none;
+  text-shadow: 1px -1px 1px #031a17;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+button:hover {
+  background-color: #4b8686;
+}
+
+
+.Topo-nav {
+  background: radial-gradient(circle, rgb(61, 168, 172) 0%, rgb(20, 60, 70) 100%);
+  border: 1px black solid;
+  border-radius: 1px;
+  color: white;
+  height: 112px;
+  text-align: right;
+}
+
+  to {
+    transform: rotate(360deg);
+  }
+
+body {
+  display: flex;
+}
+
+.search-input-cart {
+  background-color: #303638d2;
+  border: 7px double #f3f3f5;
+  border-radius: 1px 40px;
+  padding: 5px;
+  position: absolute;
+  right: 280px;
+  width: 800px;
+  margin-right: -200px;
+}
+
+ .Categorias {
+  border: 2px solid rgb(54, 50, 50);
+  margin: 25px;
+  padding: 15px;
+  font-size: 22px;
+  width: 350px;
+ }
+
+.search-top-button {
+  height: 46px;
+  margin: 5px;
+  width: 150px;
+}
+
+
+.Categorias div:hover {
+  background-color: rgb(248, 215, 215);
+}
+
+.input-label {
+  color: black;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.products-list{
+margin-left: 300px;
+}
+
+
+
+.product-cart-list {
+  align-items: center;
+  background: #05525c;
+  border-radius: 10px;
+  box-shadow: 1px 10px 13px -7px black , 5px -12px 15px -15px rgb(237 255 253 / 14%);
+  color: black;
+  display: inline-flex;
+  font-size: 30px;
+  margin-left: 30px;
+  height: 150px;
+  margin-left: -50px;
+  margin-top: 20px;
+  text-align: center;
+  width: 70%;
+  zoom: 70%;
+}
+
+h2 {
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+  left: 50%;
+  margin-right: -50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-pesquisa {
+  border-radius: 20px;
+  height: 40px;
+  margin: 10px;
+  width: 150px;
+}
+
+img {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 100px;
+  margin-top: 5px;
+  width: 120px;
+}
+
+.pesquisa-product {
+  border-radius: 5px;
+  height: 45px;
+  margin: 10px;
+  width: 400px;
+}
+
+.products-list:hover {
+  background-color: rgb(156, 156, 231);
+}
+
+span {
+  font-size: 22px;
+}
